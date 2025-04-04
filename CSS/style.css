@@ -1,0 +1,438 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+/* Buttons */
+.btn {
+    padding: 12px 20px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    transition: transform 200ms;
+}
+
+.btn-black {
+    background-color: #000;
+}
+
+.btn-black:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.btn-orange {
+    background-color: #ff6600;
+    
+}
+.btn.btn-orange.send{
+    background-color: #FF6600;
+}
+
+/* Header */
+
+header.header {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    background-color: #ffffff;
+
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 80px;
+}
+
+.logo {
+    float: left;
+    padding-top: 10px;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+nav.nav {
+    float: right;
+    padding: 20px 30px;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #878787;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #FF6600;
+}
+
+.search-icon {
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+
+/* Main */
+main.main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Banner */
+section.banner {
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.banner-content {
+    float: left;
+    width: 50%;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.banner-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.banner-buttons .btn {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.banner-image {
+    float: right;
+    width: 50%;
+    padding-right: 5vh;
+}
+
+.banner-img {
+    width: 85%;
+    float: right;
+}
+
+/* Services */
+section.services {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 1.5%;
+    padding: 30px 15px;
+    border: 1px solid #dcdcdc;
+    line-height: 22px;
+    vertical-align: top;
+}
+
+.service-card:hover {
+    border-top: 5px solid #FF6600;
+    transform: scale(1.03);
+    transition: all 300ms;
+}
+
+.service-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.service-name {
+    font-size: 20px;
+    color: #FF6600;
+    margin-bottom: 10px;
+}
+
+.service-desc {
+    font-size: 14px;
+    color: #333;
+}
+
+.service-button .btn {
+    padding: 12px 35px;
+}
+
+/* Fruits */
+section.fruits {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fruit-item {
+    overflow: hidden;
+    margin: 50px 0 90px;
+}
+
+.fruit-text {
+    float: left;
+    width: 60%;
+    text-align: left;
+}
+
+.fruit-title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.fruit-desc {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 35px;
+}
+
+.fruit-image {
+    float: right;
+    width: 40%;
+    padding: 40px 30px 20px 0;
+}
+
+.fruit-image.grapes {
+    padding: 10px 30px 0 0;
+}
+
+.fruit-img {
+    width: 250px;
+}
+
+.fruit-image.grapes .fruit-img {
+    width: 90px;
+}
+
+.fruit-image.guava .fruit-img {
+    width: 200px;
+}
+
+/* Promo Banner */
+section.promo-banner {
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/tasty.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    font-size: 105px;
+    font-weight: 800;
+    padding: 210px 0;
+    margin: 50px 0;
+}
+
+/* Testimonial */
+section.testimonial {
+    text-align: center;
+    margin: 150px 0 100px;
+}
+
+.testimonial-img {
+    width: 25%;
+    margin: 50px 0 20px;
+}
+
+.testimonial-name {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Contact */
+section.contact {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.contact-image {
+    float: right;
+    width: 14%;
+}
+
+.contact-img {
+    width: 100%;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 10px 50px 10px 10px;
+}
+
+.contact-title {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 20px 0 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #c5c5c5;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.contact-form textarea {
+    height: 100px;
+    border: 2px solid #c5c5c5;
+}
+
+.contact-form .btn {
+    width: 120px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer.footer {
+    width: 80%;
+    margin: 150px auto 0;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.footer-container {
+    width: 100%;
+}
+
+.footer-column {
+    float: left;
+    width: 10%;
+    margin-right: 15%;
+}
+
+.footer-social {
+    float: right;
+    width: 25%;
+}
+
+.footer-title {
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 25px;
+    color: #333;
+}
+
+.social-links {
+    margin: 10px 0 15px;
+}
+
+.social-icon {
+    width: 12%;
+    margin-right: 5px;
+}
+
+.subscribe-form {
+    margin-top: 10px;
+}
+
+.subscribe-input {
+    display: block;
+    width: 75%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #b6b5b5;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.footer-copyright {
+    width: 100%;
+    height: 70px;
+    background-color: #d3d3d3;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+
+.footer-copyright p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Mobile Tweaks */
+@media (max-width: 768px) {
+    .banner-content, .banner-image, .fruit-text, .fruit-image, .contact-image, .contact-form {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .service-card {
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .footer-column, .footer-social {
+        float: none;
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .promo-banner {
+        font-size: 50px;
+        padding: 100px 0;
+    }
+}
