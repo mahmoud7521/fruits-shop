@@ -351,6 +351,7 @@ footer.footer {
 
 .footer-container {
     width: 100%;
+    overflow: auto;
 }
 
 .footer-column {
@@ -411,27 +412,4 @@ footer.footer {
 .footer-copyright p {
     font-size: 14px;
     color: #333;
-}
-
-/* Mobile Tweaks */
-@media (max-width: 768px) {
-    .banner-content, .banner-image, .fruit-text, .fruit-image, .contact-image, .contact-form {
-        float: none;
-        width: 100%;
-        padding: 0;
-    }
-    .service-card {
-        display: block;
-        width: 80%;
-        margin: 20px auto;
-    }
-    .footer-column, .footer-social {
-        float: none;
-        width: 100%;
-        margin: 0 0 20px;
-    }
-    .promo-banner {
-        font-size: 50px;
-        padding: 100px 0;
-    }
 }
